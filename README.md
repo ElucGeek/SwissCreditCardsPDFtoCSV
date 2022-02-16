@@ -11,7 +11,7 @@ It accepts statement from the following issuers:
  - [Cembra & Cumulus](https://www.cembra.ch/en/cards/cembra-mastercard/) MasterCard
  - [SwissCard Cashback](https://www.swisscard.ch/en/private-customers/products) (AMEX / VISA / MasterCard)
 
-The data can be saved to a CSV file compatible with [Wallet by budgetbakers](https://budgetbakers.com/) import feature.
+The data can be saved to a CSV file for use with your own spreadsheet or other accounting tool.
 
 ## Dependencies
 
@@ -23,7 +23,11 @@ The data can be saved to a CSV file compatible with [Wallet by budgetbakers](htt
 
 ## Installation
 
-You can install the package by cloning the [GitHub repository](https://github.com/c-vigo/StatementPDFImporter) or directly
+First install Python and pip if not already done. In Ubuntu based Linux all other dependencies (camelot-py, opencv-python, python-dateuil and pandas) should be included but you can double check if you encounter errors.
+
+TO BE UPDATED (not yet in pip, new name to be define)
+
+You can install the package by cloning the [GitHub repository](https://github.com/ElucGeek/SwissCreditCardsPDFtoCSV) or directly
 using [pip](https://pip.pypa.io/en/stable/):
 
 ```
@@ -43,10 +47,15 @@ where
  - *type* is either *cembra* or *cashback*
  - *csv_file* is the full path to the CSV file where the data is saved.
 
+TO BE UPDATED: plan to add auto-detection of type based on the input file name and auto-naming of output to reduce complexity of usage.
+
 ## Authors
 
 * [**Carlos Vigo**](mailto:carviher1990@gmail.com?subject=[GitHub%-%pdf-importer]) - *Initial work* - 
 [GitHub](https://github.com/c-vigo)
+
+Forked by:
+* [**Eluc**](https://eluc.ch) - [GitHub](https://github.com/ElucGeek)
 
 ## Contributing
 
