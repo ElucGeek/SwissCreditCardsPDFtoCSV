@@ -39,7 +39,7 @@ python -m pip install pdf-importer
 You can parse a PDF statement simply with
 
 ```
-python -m pdf_importer [filename] [type] [-o csv_file]
+python3 -m pdf_importer [filename] [type] [-o csv_file]
 ```
 where 
 
