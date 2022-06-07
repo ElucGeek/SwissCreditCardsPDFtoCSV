@@ -52,7 +52,7 @@ def pdf_importer():
         dest='output',
         help='output CSV file',
         type=str,
-        default=None
+        default=filename.csv
     )
 
     # Parse the arguments
